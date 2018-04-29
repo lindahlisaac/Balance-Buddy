@@ -16,6 +16,5 @@ public class TrafficSim {
      */
     public static void main(String[] args) {
         Processing.main("trafficsim.Processing");
-    }
-    
+    } 
 }
