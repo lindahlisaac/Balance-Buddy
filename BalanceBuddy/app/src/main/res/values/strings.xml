@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Balance Buddy</string>
+
+    <!-- Welcome string values-->
+    <string name="app_name">BalanceBuddy</string>
+    <string name="action_settings">Settings</string>
+    <string name="lastName">Last Name</string>
+    <string name="welcomeToBalBuddy">Welcome to BalanceBuddy, let\'s get you started!</string>
+    <string name="whatsYourName">What\'s your name?</string>
+    <string name="firstNameHint">First Name</string>
+    <string name="thankYouForName">Thanks</string>
+
+    <!-- Income gathering    SetupActivity1 -->
+    <string name="getIncomeInfoStr">First, let\'s get some info about your income.</string>
+    <string name="incomeAmt">Income Amount</string>
+    <string name="incomeFrequency">How often do you get paid? (# Weeks)</string>
 </resources>

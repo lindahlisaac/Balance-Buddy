@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="395dp"
+        android:layout_height="215dp"
+        android:bufferType="normal"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/getIncomeInfoStr"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textSize="36sp"
+        android:typeface="normal"
+        app:layout_constraintBottom_toTopOf="@+id/guideline3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="0.469" />
+
+    <Space
+        android:id="@+id/bannerEditTextSpace"
+        android:layout_width="match_parent"
+        android:layout_height="39dp" />
+
+    <EditText
+        android:id="@+id/fName"
+        android:layout_width="263dp"
+        android:layout_height="56dp"
+        android:autofillHints="First Name"
+        android:ems="10"
+        android:hint="@string/incomeAmt"
+        android:inputType="textPersonName"
+        android:nextFocusForward="@+id/lName"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline"
+        app:layout_constraintVertical_bias="0.463" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <EditText
+        android:id="@+id/lName"
+        android:layout_width="360dp"
+        android:layout_height="58dp"
+        android:ems="10"
+        android:hint="@string/incomeFrequency"
+        android:inputType="textPersonName"
+        android:nextFocusForward="@+id/fName"
+        android:selectAllOnFocus="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fName"
+        app:layout_constraintVertical_bias="0.622" />
+
+</LinearLayout>
